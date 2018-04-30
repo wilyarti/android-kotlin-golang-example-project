@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.wordpress.clinetworking.hashtree_mobile"
+        applicationId "com.wordpress.clinetworking.android_kotlin_template"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 4

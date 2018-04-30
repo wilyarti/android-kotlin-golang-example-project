@@ -1,10 +1,19 @@
-package com.wordpress.clinetworking.android_kotlin_template
+package com.wordpress.clinetworking.hashtree_mobile
 
-import gomobile.JavaCallback
+import com.wordpress.clinetworking.hashtree_mobile.MainActivity
+import hashfunc.JavaCallback
 import android.app.Activity
+import android.content.Context
+import android.widget.ScrollView
+import android.widget.TextView
+import com.wordpress.clinetworking.hashtree_mobile.R.id.textView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.experimental.CommonPool
-
+import kotlinx.coroutines.experimental.android.UI
+import kotlinx.coroutines.experimental.launch
+import android.support.v7.app.AppCompatActivity
+import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
 
 class GoCallback(internal var context: Activity, internal var commoncontext: CommonPool) : JavaCallback {
 
