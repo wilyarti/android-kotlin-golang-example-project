@@ -37,3 +37,5 @@ To do this the GoCallBack.kt file has the following code:
 ```
 
 That is all there is to it. The code is not really sophistated but it is good enough to port CLI apps to Android
+
+If you would like there is a prebuild version of the app you can install ( android-kotlin-golang-example-project/android_kotlin_template.apk).
